@@ -9,7 +9,7 @@
   },
   "author": "Daniel",
   "license": "ISC",
-  "dependencies": 
+  "dependencies": {
     "body-parser": "^1.18.3",
     "connect-flash": "^0.1.1",
     "ejs": "^2.6.1",
