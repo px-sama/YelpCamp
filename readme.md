@@ -1,6 +1,6 @@
 # YelpCamp
 #### A web application project from the Udemy course - The Web Developer Bootcamp by Colt Steele
-
+<img src="/demo/demo.JPG">
 ## Features:
 ### Authentication:
 
