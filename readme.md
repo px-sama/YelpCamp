@@ -1,25 +1,39 @@
-#Creating New Campgrounds
+# YelpCamp
+#### A web application project from the Udemy course - The Web Developer Bootcamp by Colt Steele
 
-* Setup new campground POST route
-* Add in body-parser
-* Setup route to show form
-* Add basic unstyled form
-* 
-=======================================================
-#show page
-* review the Restful route we've seen so far
-* Add description to our campground model
-* show db.collection.drop()
-* Add a show route/template
-* 
+## Features:
+### Authentication:
 
-==============================================
+- User login with username and password
 
-Restful Route
+- Admin sign-up with admin code
 
-name    url     verb    desc
-INDEX   /dogs   GET     Display a list of all dogs
-NEW     /dog/newGet     Diaplay form to make a new dog
-CREATE  /dogs   POST    Add new Dogs to DB
-SHOW    /dogs/:id GET   Shows info about one dog  - one steps more
+### Authorization:
+
+- One cannot manage posts and view user profile without being authenticated
+
+- One cannot edit or delete posts and comments created by other users
+
+- Admin can manage all posts and comments
+
+- Manage campground posts with basic functionalities:
+
+- Create, edit and delete posts and comments
+
+- Upload campground photos
+
+- Search existing campgrounds
+
+### Manage user account with basic functionalities:
+
+- Profile page setup with sign-up
+- Flash messages responding to users' interaction with the app
+
+### Responsive web design
+
+### Custom Enhancements
+
+### Update campground photos when editing campgrounds
+
+### Update personal information on profile page
 
